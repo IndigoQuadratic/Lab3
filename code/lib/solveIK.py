@@ -7,7 +7,7 @@ from calcJacobian import calcJacobian
 from calculateFK import FK
 from IK_velocity import IK_velocity
 
-class solveIK:
+class IK:
 
     # JOINT LIMITS
     lower = np.array([-2.8973,-1.7628,-2.8973,-3.0718,-2.8973,-0.0175,-2.8973])
